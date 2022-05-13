@@ -27,7 +27,7 @@ export const MuiDrawer = () => {
         >
         <Box p={2} width='250px' role='presentation' textAlign='left' backgroundColor="#1c2237" height="100vh">
           <div className="sideBar text-white">
-            <div className="text-4xl font-semibold">Menu</div>
+            <div className="text-3xl font-semibold">Menu</div>
             <div className="flex gap-4 mb-8 mt-8" id={window.location.pathname==='/' ? "menuList" : ""}>
               <span className="mt-1 text-3xl"><ImStatsBars/></span>
               <button className="text-2xl font-medium" 
