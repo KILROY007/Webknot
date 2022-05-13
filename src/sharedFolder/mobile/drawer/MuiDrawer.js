@@ -1,11 +1,10 @@
 import { Drawer, Box, IconButton } from '@mui/material'
 import { useState } from 'react'
-import MenuIcon from '@mui/icons-material/Menu'
 import {ImStatsBars} from 'react-icons/im'
 import {GiNotebook} from 'react-icons/gi'
 import {RiPenNibFill} from 'react-icons/ri'
 import './drawer.css'
-
+import {HiOutlineMenuAlt1} from 'react-icons/hi'
 export const MuiDrawer = () => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false)
   
@@ -18,7 +17,7 @@ export const MuiDrawer = () => {
         color='inherit'
         aria-label='logo'
         padding-top="0">
-        <MenuIcon  />
+        <span className="text-blue-700 -mt-2"><HiOutlineMenuAlt1  /></span>
       </IconButton>
       <Drawer
         anchor='left'
