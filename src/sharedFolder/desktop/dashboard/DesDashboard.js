@@ -8,7 +8,7 @@ import {Card} from "../../../sharedFolder/Card"
 import {Peoplecard} from "../../../sharedFolder/Peoplecard"
 export const DesDashboard = () => {
   return (
-    <div className="h-screen w-screen">
+    <div className="h-screen w-screen ">
         <div className="flex justify-between mt-10">
             <h1 className="text-3xl font-semibold  ml-10">Dashboard</h1>
             <h1 className="text-meddium mr-12 mt-2"><span className="text-large text-gray-500">for</span> January 2019</h1>

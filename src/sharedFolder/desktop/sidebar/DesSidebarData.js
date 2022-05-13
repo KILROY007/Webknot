@@ -6,7 +6,7 @@ export const DesSidebarData=[
     {   
         title: 'Dashboard',
         icon:<ImStatsBars style={{ fontSize:"1.875rem",lineHeight:"1.25rem" }}/>,
-        link:""
+        link:"/"
     },
     {
         title: 'Issues',
