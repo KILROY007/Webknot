@@ -1,5 +1,5 @@
 import React from 'react'
-import graph from '../../../styles/img/Graph.png'
+import Mobilegraph from '../../../styles/img/MobileGraph.png'
 import profilePic2 from "../../../styles/img/profilePic2.jfif"
 import profilePic3 from "../../../styles/img/profilePic3.webp"
 import profilePic4 from "../../../styles/img/profilePic4.jfif"
@@ -16,7 +16,7 @@ export const MobileDash = () => {
             <h1 className="text-meddium mr-4 mt-2"><span className="text-large text-gray-500">Filter:</span> Project</h1>
         </div> 
         <div className="graph flex justify-center mt-2">
-            <img src={graph} alt="" className="h-52 w-96"></img>
+            <img src={Mobilegraph} alt="" className="w-screen"></img>
         </div>
         <div className=" priority grid grid-cols-3 gap-12 ml-6 overflow-hidden">
             <div className="highPriority grid grid-cols-1">
