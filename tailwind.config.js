@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       colors:{
         sidebg:"#1c2237"
-      } 
+      },
     },
   },
   plugins: [],

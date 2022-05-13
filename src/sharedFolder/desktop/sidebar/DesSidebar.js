@@ -3,7 +3,7 @@ import {DesSidebarData} from './DesSidebarData'
 import './DesSidebaar.css'
 export const DesSidebar = () => {
   return (
-    <div className="-ml-4 bg-sidebg float-left pr-10  h-screen  rounded  overflow-y-auto">
+    <div className="-ml-4 bg-sidebg float-left pr-10 h-[69rem] rounded  overflow-y-auto">
         <ul className={`mt-4 menuItems`} >
                         {DesSidebarData.map((value,key)=>{
                             return (

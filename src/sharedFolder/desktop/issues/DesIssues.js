@@ -15,8 +15,6 @@ export const DesIssues = () => {
                 <IssueCard dateText="January 5, 2019" profilePic={profilePic} bgColor="bg-red-600" status="High Priority" />
                 <IssueCard dateText="January 6, 2019" profilePic={profilePic} bgColor="bg-orange-600" status="Low Priority" />
                 <IssueCard dateText="January 11, 2019" profilePic={profilePic} bgColor="bg-red-600" status="High Priority" />
-                <IssueCard dateText="January 11, 2019" profilePic={profilePic} bgColor="bg-orange-600" status="Low Priority" />
-                
             </div>
             <div className="Recent">
                 <h1 className="text-2xl font-semibold">In Progress 2</h1>
